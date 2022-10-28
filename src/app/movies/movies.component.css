@@ -1,0 +1,60 @@
+.posters{
+    display: flex;
+   position: absolute;left:5%;top:15%; 
+   cursor: pointer;
+}
+.poster1{
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.poster1 a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: relative;left: 80px;
+    color: azure;
+}
+.posters2{
+    display: flex;
+    position: absolute;left:5%;top:15%; 
+
+}
+.poster2{
+    margin-left: 20px;
+    margin-top: 35%;}
+    .poster2 a{
+        text-decoration: none;
+        color: white;
+        justify-content: center;}
+input{
+    border-radius: 1px;
+    border: 0px;
+    background-color: #202830;
+    height: 35px;
+
+}
+
+
+
+i{
+    color:white;
+    margin-left: 10px;
+    height: 15px;
+    cursor: pointer;
+    
+
+}

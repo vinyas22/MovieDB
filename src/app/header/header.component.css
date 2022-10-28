@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: relative;left: 80px;
+    color: azure;
+    
+}

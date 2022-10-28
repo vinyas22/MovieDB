@@ -1,0 +1,20 @@
+.posters{
+    display: flex;
+   position: absolute;left:5%;top:15%; 
+   background-color: aqua;
+}
+.poster1{
+    margin-right: 15px;
+    background-color: aqua;
+
+}
+
+
+body{
+    background-color: brown;
+   
+    }
+html{
+    background-image: url('https://color-hex.org/colors/0b131a.png');
+    background-size: cover;
+}
