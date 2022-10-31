@@ -1,0 +1,38 @@
+[
+  {
+    "id": 17,
+    "name": "12 Angry Men",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
+    "duration" : 1957  
+    
+  },
+  {
+    "id": 18,
+    "name": "Schindler's List",
+    "cover": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    "duration": 1993
+    
+  },
+  {
+    "id": 19,
+    "name": "Pulp Fiction",
+    "cover": "http://timesofindia.indiatimes.com/photo/61261210.cms",
+    "duration": 1994
+    
+  },
+  {
+    "id": 20,
+    "name": "Lotr  The Fellowship of the Ring",
+    "cover": "https://horrornews.net/wp-content/uploads/2012/04/LOTR-Fellowship-Of-The-Ring-poster-1.jpg",
+    "duration": 2022
+    
+  },
+  {
+    "id": 21,
+    "name": "LOTR The Return Of The King",
+    "cover": "https://images.moviesanywhere.com/45bc0ec075bfc0b4d8f184a7cc5bf993/876ed805-83b1-4387-b0d0-62d08c36536d.jpg",
+    "duration": 2003
+    
+  }
+  
+]

@@ -11,41 +11,9 @@ header a{
         color: azure;
     
 }
-.posters{
-    display: flex;
-   position: absolute;left:5%;top:15%; 
-   cursor: pointer;
-}
-.poster1{
-    margin-left: 20px;
-    cursor: pointer;
 
-}
-.poster1 a{
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    cursor: pointer;
-}
-.posters2{
-    display: flex;
-    position: absolute;left:5%;top:15%; 
 
-}
-.poster2{
-    margin-left: 20px;
-    margin-top: 35%;}
-    .poster2 a{
-        text-decoration: none;
-        color: white;
-        justify-content: center;}
-        input{
-    border-radius: 1px;
-    border: 0px;
-    background-color: #202830;
-    height: 35px;
 
-}
 
 
 
@@ -55,5 +23,32 @@ i{
     height: 15px;
     cursor: pointer;
     
+
+}
+ 
+.first{
+    display: flex;justify-content: space-between;
+}
+.third img{
+    width:250px;height:375px;
+    margin-top: 3%;
+
+}
+
+.praveen{
+    display: flex;justify-content: space-between;
+}
+.azhar img{
+    width:250px;height:375px;
+    margin-top: 6%;
+}
+*{
+color: white;
+}
+input{
+    border-radius: 1px;
+    border: 0px;
+    background-color: #202830;
+    height: 35px;
 
 }

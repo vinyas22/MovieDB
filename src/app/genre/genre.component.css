@@ -13,59 +13,29 @@ header a{
         margin: 0%;
     
 }
-h3{
+.he{
     color: white;
-    margin-left: 80px;
-    margin-top: 35px;
+    margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
 }
-.posters{
-    display: flex;
-   position: absolute;left:5%;top:15%; 
-   cursor: pointer;
-}
-.poster1{
-    margin-left: 20px;
-    cursor: pointer;
 
-}
-.poster1 a{
-    text-decoration: none;
-    color: white;
-    justify-content: center;
-    cursor: pointer;
-}
-h4 {
+.him {
     color: white;
     
-        margin-left: 80px;
-        margin-top: 30%;
+        margin-top: 4%;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
       
 }
-.posters2{
-    display: flex;
-    position: absolute;left:5%;top:15%; 
+input{
+    border-radius: 1px;
+    border: 0px;
+    background-color: #202830;
+    height: 35px;
 
 }
-.poster2{
-    margin-left: 20px;
-    margin-top: 36%;
-}
-.poster2 a{
-    text-decoration: none;
-    color: white;
-    justify-content: center;}
-    input{
-        border-radius: 1px;
-        border: 0px;
-        background-color: #202830;
-        height: 35px;
-    
-    }
-    
+
     
     
     i{
@@ -77,3 +47,29 @@ h4 {
     
     }
     
+    .first{
+        display: flex;justify-content: space-between;
+    }
+    .third img{
+        width:250px;height:375px;
+        margin-top: 3%;
+
+    }
+    
+    .praveen{
+        display: flex;justify-content: space-between;
+    }
+    .azhar img{
+        width:250px;height:375px;
+        margin-top: 6%;
+    }
+*{
+    color: white;
+}
+#bb{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+margin: 0;
+padding: 0;
+line-height: 5px;
+}

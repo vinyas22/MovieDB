@@ -1,0 +1,38 @@
+[
+    {
+      "id": 17,
+      "name": "The Sandman",
+      "cover": "https://m.media-amazon.com/images/M/MV5BYTM0NjZjYjItM2JiYS00NmU5LWJmMTMtZjQ0OWU3Mzk1ZWZjXkEyXkFqcGdeQXVyMTAxNDE3MTE5._V1_.jpg",
+      "duration" : "2022 • S1 10 Episodes"   
+      
+    },
+    {
+      "id": 18,
+      "name": "The Boys",
+      "cover": "https://m.media-amazon.com/images/M/MV5BOTEyNDJhMDAtY2U5ZS00OTMzLTkwODktMjU3MjFkZWVlMGYyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+      "duration": "2019-  • S3 8 Episodes"
+      
+    },
+    {
+      "id": 19,
+      "name": "Stranger Things",
+      "cover": "https://static.cinemagia.ro/img/db/movie/95/37/29/stranger-things-761100l.jpg",
+      "duration": "2016- • S4 8 Episodes"
+      
+    },
+    {
+      "id": 20,
+      "name": "Extraordinary Attorney Woo",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMTAzNzlhYjItN2MxZS00ZTg4LWFmZGQtN2I1ZWE5YjgzODY3XkEyXkFqcGdeQXVyNjk1NzU1Mjk@._V1_FMjpg_UX1000_.jpg",
+      "duration": "2022 • S1 16 Episodes"
+      
+    },
+    {
+      "id": 21,
+      "name": "Little Women",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMzRlZjkwOWEtMjBhMy00NmM3LWFkMzgtYTFmODIyMWFhNDkyXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_FMjpg_UX1000_.jpg",
+      "duration": "2022 • S1 12 Episodes"
+      
+    }
+    
+  ]

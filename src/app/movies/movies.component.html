@@ -1,6 +1,7 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<div class="head1">
 <header>
     <a routerLink="/home">Home</a>
     <a routerLink="/movies">Movies</a>
@@ -14,26 +15,29 @@
     <router-outlet></router-outlet>
 
 </header>
-<body><div class="posters">
-    <div class=poster1><a href="#"><img src="https://img.hdtoday.cc/xxrz/250x400/520/e0/89/e0898dd2a6184b11b7e01f155eaa8f75/e0898dd2a6184b11b7e01f155eaa8f75.jpg"><br>
-    The Shawshank Redemption<br>1994 • 142m</a></div>
-    <div class=poster1><a href="#"><img src="https://img.hdtoday.cc/xxrz/250x400/520/44/19/4419ee37a30fc8827ffdc204d13cecd8/4419ee37a30fc8827ffdc204d13cecd8.jpg"><br>
-		Doctor Who<br><span style="cursor: default;color: white;"> 2013 • 77m </span></a></div>
-        <div class=poster1><a href="#"><img src="https://img.hdtoday.cc/xxrz/250x400/520/1e/fe/1efe7a04df2a551d7a218247f0e4da89/1efe7a04df2a551d7a218247f0e4da89.jpg"><br>The Godfather<br><span style="cursor: default;color: white;">1972 • 175m</span></a></div>
-            <div class=poster1><a href="#"><img src="https://img.hdtoday.cc/xxrz/250x400/520/9a/ae/9aaec598f6379f7d0061199b3ce5c9a0/9aaec598f6379f7d0061199b3ce5c9a0.jpg"><br>Unicorn Town<br><span style="cursor: default;color: white;">2022  83m</span></a></div>
-                <div class=poster1><a href="#"><img src="https://img.hdtoday.cc/xxrz/250x400/520/db/3e/db3ee81a2f6cc2b52a80f8c1caea40a0/db3ee81a2f6cc2b52a80f8c1caea40a0.jpg"><br>The Dark Knight<br><span style="cursor: default;color: white;">2008 • 152m</span></a></div>
-                    </div>
-                    <div class="posters2">
-                        <div class=poster2><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg" width="250px" height="375px"><br>12 Angry Men<br><span style="cursor: default;color: white;">1957 • 96m</span>	</a></div>
-                        <div class=poster2><a href=""><img src="https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"width="250px" height="375px"><br>Schindler's List<br><span style="cursor: default;color: white;">1993 • 195m</span>
-                        </a></div>
-                            <div class=poster2><a href=""><img src="http://timesofindia.indiatimes.com/photo/61261210.cms" width="250px" height="375px"><br>Pulp Fiction<br><span style="cursor: default;color: white;">1994 • 154m</span></a></div>
-                            <div class=poster2><a href="#"><img src="https://images.moviesanywhere.com/45bc0ec075bfc0b4d8f184a7cc5bf993/876ed805-83b1-4387-b0d0-62d08c36536d.jpg" width="250px" height="375px"><br>LOTR The Return Of The King<br><span style="cursor: default;color: white;">2003 • 201m</span></a></div>
-                            <div class=poster2><a href="#"><img src="https://images.moviesanywhere.com/45bc0ec075bfc0b4d8f184a7cc5bf993/876ed805-83b1-4387-b0d0-62d08c36536d.jpg" width="250px" height="375px"><br>LOTR The Return Of The King<br><span style="cursor: default;color: white;">2003 • 201m</span></a></div>
+</div>
+<body><div class="first">
+    <div class="second" *ngFor="let movie of trendingMovies">
+        <div class="third">
+            <img [src]="movie.cover">
+        </div>
+        <div class="fourth">{{movie.name}}</div>
+        <div class="fifth">{{movie.duration}}</div>
+    </div>
+    </div>
 
-                        </div>
-                
-                
-                
-                
+    <div class="praveen">
+        <div class="chaitanya" *ngFor="let movie of row">
+            <div class="azhar">
+                <img [src]="movie.cover">
+            </div>
+            <div class="certybox">{{movie.name}}</div>
+            <div class="office">{{movie.duration}}</div>
+        </div>
+        </div>
+        
+       
+            
+        
+    
                 </body>

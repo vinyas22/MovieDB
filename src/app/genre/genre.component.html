@@ -15,29 +15,27 @@
 
 </header>
     <body>
-        <h3>Action & Adventure</h3>
+        
+        <div class="he">Action & Adventure</div>
 
-        <div class="posters">
-            <div class=poster1><a href="#"><img src="https://cdn.flickeringmyth.com/wp-content/uploads/2018/07/Mission-Impossible-6-Fallout-1.jpg"width="250px" height="375px"><br>
-                Mission: Impossible - Fallout<br>2018 • 147m</a></div>
-            <div class=poster1><a href="#"><img src="https://stat2.bollywoodhungama.in/wp-content/uploads/2019/03/RRR-2022.jpeg"width="250px" height="375px"><br>
-                Rise Roar Revolt<br><span style="cursor: default;color: white;">2022 • 182m </span></a></div>
-                <div class=poster1><a href="#"><img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2020/08/TENET-UK-Poster.jpg"width="250px" height="375px"><br>Tenet<br><span style="cursor: default;color: white;">2020 • 150m</span></a></div>
-                <div class=poster1><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"width="250px" height="375px"><br>No Time Die<br><span style="cursor: default;color: white;">2021 • 163m</span></a></div>
-                <div class=poster1><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BNzE2ZjQxNjEtNmI2ZS00ZmU0LTg4M2YtYzVhYmRiYWU0YzI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"width="250px" height="375px"><br>6 Underground<br><span style="cursor: default;color: white;">2019 • 128m</span></a></div>
+        <div class="first">
+            <div class="second" *ngFor="let movie of row5">
+                <div class="third">
+                    <img [src]="movie.cover">
                 </div>
-                <h4 >Thriller </h4>
-            <div class="posters2">
-                <div class="poster2"><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"width="250px" height="375px"><br>
-                    Shutter Island<br>2010 • 148m</a></div>
-                    <div class="poster2"><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BMzY2OTU0NTgtMGZiZC00M2Y5LThjZjQtOTcyNWNlZDdhMjZkXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg"width="250px" height="375px"><br>
-                        Forgotten<br>2017 • 108m</a></div>
-                        <div class="poster2"><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"width="250px" height="375px"><br>
-                            Zodiac<br>2007 • 157m</a></div>
-                            <div class="poster2"><a href="#"><img src="https://m.media-amazon.com/images/M/MV5BOTdlMTg2YWEtMzkxMC00YmNmLThkZGYtYjZmN2UzYzM2ZmRlXkEyXkFqcGdeQXVyMjcxODMwMDk@._V1_.jpg"width="250px" height="375px"><br>
-                                The Call<br>2020 • 112m</a></div>
-                                <div class="poster2"><a href="#"><img src="https://www.themoviedb.org/t/p/original/qymaJhucquUwjpb8oiqynMeXnID.jpg"width="250px" height="375px"><br>
-                                    Gone Girl<br>2014 • 149m</a></div>
+                <div class="fourth">{{movie.name}}</div>
+                <div class="fifth">{{movie.duration}}</div>
             </div>
+            </div><br><br>
+                <span id="bb">Thriller</span>
+                <div class="praveen">
+                    <div class="chaitanya" *ngFor="let movie of row6">
+                        <div class="azhar">
+                            <img [src]="movie.cover">
+                        </div>
+                        <div class="certybox">{{movie.name}}</div>
+                        <div class="office">{{movie.duration}}</div>
+                    </div>
+                    </div>
                 
                    </body>

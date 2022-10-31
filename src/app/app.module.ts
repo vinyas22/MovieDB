@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { ImageComponent } from './image/image.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TestService } from './test.service';
+
 
 @NgModule({
   declarations: [
@@ -28,10 +31,11 @@ import { HeaderComponent } from './header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
 
   ],
-  providers: [],
+  providers: [TestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
