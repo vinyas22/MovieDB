@@ -1,0 +1,38 @@
+[
+    {
+      "id": 17,
+      "name": " Shutter Island",
+      "cover": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "duration" : "2010 • 148m "   
+      
+    },
+    {
+      "id": 18,
+      "name": " Forgotten",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMzY2OTU0NTgtMGZiZC00M2Y5LThjZjQtOTcyNWNlZDdhMjZkXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg",
+      "duration": "2017 • 108m      "
+      
+    },
+    {
+      "id": 19,
+      "name": "Zodiac",
+      "cover": "https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "duration": "2007 • 157m      "
+      
+    },
+    {
+      "id": 20,
+      "name": "The Call",
+      "cover": "https://m.media-amazon.com/images/M/MV5BOTdlMTg2YWEtMzkxMC00YmNmLThkZGYtYjZmN2UzYzM2ZmRlXkEyXkFqcGdeQXVyMjcxODMwMDk@._V1_.jpg",
+      "duration": "2020 • 112m      "
+      
+    },
+    {
+      "id": 21,
+      "name": "Gone Girl",
+      "cover": "https://www.themoviedb.org/t/p/original/qymaJhucquUwjpb8oiqynMeXnID.jpg",
+      "duration": "2014 • 149m"
+      
+    }
+    
+  ]

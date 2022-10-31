@@ -1,0 +1,38 @@
+[
+    {
+      "id": 17,
+      "name": "House Of the Dragon",
+      "cover": "https://m.media-amazon.com/images/M/MV5BZjBiOGIyY2YtOTA3OC00YzY1LThkYjktMGRkYTNhNTExY2I2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+      "duration" : "2022 • S1 8 Episodes"   
+      
+    },
+    {
+      "id": 18,
+      "name": " Rings Of Power",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNTg3NjcxYzgtYjljNC00Y2I2LWE3YmMtOTliZTkwYTE1MmZiXkEyXkFqcGdeQXVyNTY4NDc5MDE@._V1_FMjpg_UX1000_.jpg",
+      "duration": "2022 • S1 8 Episodes"
+      
+    },
+    {
+      "id": 19,
+      "name": "The Terminal List",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNmNkYmZjZDMtNjVmZC00OWVkLWI1MzEtYjI0ZDc2MjExYWY2XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "duration": "2022 • S1 8 Episodes"
+      
+    },
+    {
+      "id": 20,
+      "name": "Dahmer – Monster",
+      "cover": "https://m.media-amazon.com/images/M/MV5BM2IwNWY2YWEtNTU4Ni00MmE2LTljZjItNWQ0NzBlNjJiMzBiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+      "duration": "2022 • S1 10 Episodes"
+      
+    },
+    {
+      "id": 21,
+      "name": "Severance",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMjkwZjcwMGQtNDAzOC00YjJiLThiYTgtNWU3ZjRiZmY2YzEzXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg",
+      "duration": "2022 • S1 9 Episodes"
+      
+    }
+    
+  ]
